@@ -21,9 +21,7 @@ def harf_notu_hesapla(vize, final):
     print(f"Ortalamanız: {ortalama:.2f}, Harf Notunuz: {harf}")
     return ortalama, harf
 
-# Kullanıcıdan vize ve final notları alınıyor
 alinan_vize = float(input("Lütfen vize notunuzu girin: "))
 alinan_final = float(input("Lütfen final notunuzu girin: "))
 
-# Fonksiyon, kullanıcının girdiği notlar ile çalıştırılıyor
 harf_notu_hesapla(alinan_vize, alinan_final)
