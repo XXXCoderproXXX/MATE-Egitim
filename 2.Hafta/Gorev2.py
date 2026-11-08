@@ -2,8 +2,8 @@ def indirim_hesapla(fiyat, indirim_yuzdesi):
     indirim_tutari = fiyat * (indirim_yuzdesi / 100)
     son_fiyat = fiyat - indirim_tutari
     
-    print(f"İndirim Tutarı: {indirim_tutari:.2f} TL")
-    print(f"İndirimli Son Fiyat: {son_fiyat:.2f} TL")
+    print(f"İndirim Tutarı: {indirim_tutari:} TL")
+    print(f"İndirimli Son Fiyat: {son_fiyat:} TL")
     
     return indirim_tutari, son_fiyat
 
